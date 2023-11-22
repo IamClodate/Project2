@@ -20,13 +20,14 @@ class Navbar extends Component {
 
            
             <div className="menu-icons" onClick=
-            {this.handleClick}>
+                {this.handleClick}>
                 <i className={this.state.clicked ? "fa-solid fa-bars" : "fa-solid fa-x"}></i>
             </div>
 
 
-            <ul className="nav-menu">
-            {MenuItems.map((item, index) =>{
+            <ul className={this.state.clicked ? 
+                "nav-menu.active" : "nav-menu"}>
+            {MenuItems.map((item, index) => {
                 return (
                     <li key={index}>
                     <a  className={item.cName} href="/">
