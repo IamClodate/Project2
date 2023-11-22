@@ -6,6 +6,7 @@ import { MenuItems } from './MenuItems';
 
 
 
+
 class Navbar extends Component {
     state = { clicked: false };
     handleClick = () =>{
@@ -17,12 +18,12 @@ class Navbar extends Component {
             <nav className="NavItems">
             <h1 className="navbar-logo">Tranquil</h1>
 
-            // menu Icon on smaller screen
-            <div className="menu-icons">
-                <i className={this.state.clicked ? 
-                    "fas fa-times" : "fas fa-bars"}>
-                </i>
+           
+            <div className="menu-icons" onClick=
+            {this.handleClick}>
+                <i className={this.state.clicked ? "fa-solid fa-bars" : "fa-solid fa-x"}></i>
             </div>
+
 
             <ul className="nav-menu">
             {MenuItems.map((item, index) =>{
