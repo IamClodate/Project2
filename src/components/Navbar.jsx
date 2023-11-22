@@ -7,10 +7,22 @@ import { MenuItems } from './MenuItems';
 
 
 class Navbar extends Component {
+    state = { clicked: false };
+    handleClick = () =>{
+        this.setState({ clicked: !this.state.clicked})
+    }
+
     render() {
         return(
             <nav className="NavItems">
             <h1 className="navbar-logo">Tranquil</h1>
+
+            // menu Icon on smaller screen
+            <div className="menu-icons">
+                <i className={this.state.clicked ? 
+                    "fas fa-times" : "fas fa-bars"}>
+                </i>
+            </div>
 
             <ul className="nav-menu">
             {MenuItems.map((item, index) =>{
