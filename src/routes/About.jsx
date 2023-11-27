@@ -7,13 +7,12 @@ function About () {
     return (
       <div>
         <Hero 
-          cName="hero"
-          heroImg={ AboutImg}   
-          title="Explore your heart desires"
-          text="Travel The world"
+          cName="hero-mid"
+          heroImg={ AboutImg }   
+          title="This is the About Page"
           buttonText="Explore More"
-          url="/"
-          btnClass="show"
+          
+          btnClass="hide"
         />
       </div>
     );

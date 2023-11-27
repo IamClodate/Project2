@@ -9,6 +9,10 @@
     height: 70vh;
     position: relative;
   }
+
+  .hero-text h1 {
+    padding-top: 4rem !important;
+  }
   
 img {
     width: 100%;
@@ -45,6 +49,10 @@ img {
     font-weight: bold;
     letter-spacing: 2px;
     color: grey;
+}
+
+.hero-text .hide {
+    display: none;
 }
 @media screen and (max-width: 55px){
     .hero-text h1 {
