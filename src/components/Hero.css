@@ -9,22 +9,22 @@ img {
     height: 100%;
     object-fit: cover;
 }
-hero-text{
+.hero-text{
     position: absolute;
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
 }
-hero-text h1{
+.hero-text h1{
     font-size: 3rem;
     font-weight: 800;
     background: #fff;
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
 }
 
-hero-text p{
+.hero-text p{
     font-size: 1.3rem;
     font-weight: 800;
     color: #fff;
@@ -54,6 +54,7 @@ hero-text p{
         padding:6rem 1.1rem;
         border-radius: 6px;
         font-size: 1rem;
+        background: red;
 
     }
 }
