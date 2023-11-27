@@ -9,13 +9,15 @@ function Hero(props) {
       // <img src={herpImg} alt="Hero Image" />
 
   
-          <div className="hero-text"></div>
+          <div className="hero-text">
           <h1>props.title</h1>
           <p>props.text</p>
           <a href="/">
             Travel Plan
           </a>
+          </div>
       </div>
+      
     );
   }
   
