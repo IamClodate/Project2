@@ -2,16 +2,16 @@ import React from "react";
 import "./Hero.css";
 import herpImg from '../assets/image2.jpeg'; 
 
-function Hero() {
+function Hero(props) {
     return (
-      <div className="hero">
-         <img alt="HerpImg" src= "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D"/>
-      //  <img src={herpImg} alt="Hero Image" />
+      <div className={props.cName}>
+         <img alt="HerpImg" src= {props.herpImg}/>
+      // <img src={herpImg} alt="Hero Image" />
 
-          <h1>This is Hero section</h1>
+  
           <div className="hero-text"></div>
-          <h1>Tranquil Tours</h1>
-          <p>Explore your heart desires.</p>
+          <h1>props.title</h1>
+          <p>props.text</p>
           <a href="/">
             Travel Plan
           </a>
