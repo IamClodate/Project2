@@ -1,15 +1,12 @@
 import React from 'react';
 import './App.css';
-import Navbar from "./components/Navbar";
 import { Route, Routes } from "react-router-dom";
 import Home from "./routes/Home";
 import About from "./routes/About";
-// import Services from "./routes/Services";
-// import Tours from "./routes/Tours";
-// import About from "./routes/A";
-// import About from "./routes/About";
-// import About from "./routes/About";
-// import About from "./routes/About";
+import Services from "./routes/Services";
+import Tours from "./routes/Tours";
+import Blog from "./routes/Blog";
+import Contact from "./routes/Contact";
 
 export default function App() {
   return (
@@ -17,12 +14,12 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/service" element={<Services />} />
+        <Route path="/services" element={<Services />} />
         <Route path="/tours" element={<Tours />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Navbar />
+
     </div>
   );
 }
