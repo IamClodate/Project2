@@ -8,7 +8,7 @@ function Services () {
       <Hero 
       cName="hero-mid"
       heroImg={ AboutImg }   
-      title="This is the About Page"
+      title="This is the Service Page"
       buttonText="Explore More"
       
       btnClass="hide"

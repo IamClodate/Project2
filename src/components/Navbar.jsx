@@ -6,7 +6,6 @@ import { MenuItems } from './MenuItems';
 
 
 
-
 class Navbar extends Component {
     state = { clicked: false };
     handleClick = () =>{
