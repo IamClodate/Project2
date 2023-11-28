@@ -17,11 +17,11 @@ const Desitinations = () => {
             </div>
 
             <div className= "image">
-                <img  alt= "img" src=""/>
+                <img  alt= "img" src={picture}/>
             </div>
         </div>
     </div>
-  )
-}
+  );
+};
 
-export default Desitinations
+export default Desitinations;
