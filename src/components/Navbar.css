@@ -44,7 +44,7 @@
 }
 
 .nav-links:hover {
-    background-color: orange;
+    background-color: rgb(126, 126, 209)
     color: #fff;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;

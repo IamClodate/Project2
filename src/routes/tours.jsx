@@ -6,10 +6,11 @@ import AboutImg from  "../assets/sea.jpeg";
 function Tours () {
     return (
       <div>
+        <Navbar />
         <Hero 
         cName="hero-mid"
         heroImg={ AboutImg }   
-        title="This is the About Page"
+        title="This is the Tours Page"
         buttonText="Explore More"
         
         btnClass="hide"

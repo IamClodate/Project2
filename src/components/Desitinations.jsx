@@ -18,6 +18,10 @@ const Desitinations = () => {
 
             <div className= "image">
                 <img  alt= "img" src={picture}/>
+                <img  alt= "img" src={picture1}/>
+                <img  alt= "img" src={picture2}/>
+                <img  alt= "img" src={picture3}/>
+
             </div>
         </div>
     </div>
