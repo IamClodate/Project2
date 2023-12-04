@@ -13,7 +13,7 @@
     top: 20px;
     left: 50%;
     transform: translate(-50%);
-    z-index: 9999;
+    /* z-index: 9999; */
 }
 
 .navbar-logo {
@@ -32,7 +32,7 @@
 
 .nav-links {
     text-decoration: none;
-    color: green;
+    color: blue;
     font-size: 1.2rem;
     font-weight: 600;
     padding: 0.7rem 1rem;
@@ -76,7 +76,8 @@ button:hover {
 
 @media screen and (max-width: 850px){
     .NavItems {
-        z-index: 99;
+        display: flex;
+        /* z-index: 99; */
     }
     .nav-menu {
         display: flex;
@@ -99,7 +100,7 @@ button:hover {
     .nav-menu.active {
         left: 0;
         opacity: 1;
-        z-index: -1;
+        /* z-index: -1; */
         transition: 0.3s ease-in-out;
     }
 
