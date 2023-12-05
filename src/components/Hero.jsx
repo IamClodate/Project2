@@ -4,17 +4,8 @@ import "./Hero.css";
 function Hero(props) {
     return (
         
-      // <div className={props.cName}>
-      //    <img alt="HerpImg" src= {props.herpImg}/>
-  
-      //     <div className="hero-text">
-      //     <h1>props.title</h1>
-      //     <p>props.text</p>
-      //     <a href={props.url} className={props.btnClass}>
-      //       {props.buttonText}
-      //     </a>
-      //     </div>
-      // </div>
+    
+      
       <>
       <div className={props.cName}>
         <img alt="HerpImg" src={props.heroImg}/>
@@ -24,9 +15,6 @@ function Hero(props) {
          <div className="hero-text" >
          <h1>{props.title}</h1>
         <p>{props.text}</p>
-          {/* <h1>Welcome to Tranquil Tours</h1>
-          <h2>Explore your heart desires</h2>
-          <p>Thank you for visiting us</p> */}
           <a href="/">
             My Travel Tours
           </a>
