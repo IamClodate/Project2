@@ -3,6 +3,7 @@ import "./Hero.css";
 
 function Hero() {
     return (
+        
       // <div className={props.cName}>
       //    <img alt="HerpImg" src= {props.herpImg}/>
   
@@ -15,7 +16,8 @@ function Hero() {
       //     </div>
       // </div>
       <>
-      <div>
+      <div className="hero">
+        <img alt="HerpImg" src="https://images.unsplash.com/photo-1464207687429-7505649dae38?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHJhdmVsJTIwdG91cnxlbnwwfHwwfHx8MA%3D%3D"/>
         <h1>Test</h1>
       </div>
       </>
