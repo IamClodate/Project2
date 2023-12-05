@@ -6,6 +6,7 @@ import AboutImg from  "../assets/sea.jpeg";
 function Contact () {
     return (
       <div>
+        <Navbar />
         <Hero 
         cName="hero-mid"
         heroImg={ AboutImg }   

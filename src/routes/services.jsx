@@ -5,6 +5,7 @@ import AboutImg from  "../assets/sea.jpeg";
 function Services () {
     return (
       <div>
+      <Navbar />
       <Hero 
       cName="hero-mid"
       heroImg={ AboutImg }   
