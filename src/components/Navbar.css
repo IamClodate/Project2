@@ -1,6 +1,6 @@
 
 .NavItems {
-    background-color: gray;
+    background-color: blue;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,9 +17,10 @@
 }
 
 .logo {
-    width: 50px;
+    width: 95px;
     height: auto;
     cursor: pointer;
+    border-radius: 13px;
 }
 
 .nav-menu {
