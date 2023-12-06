@@ -1,6 +1,6 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
-import AboutImg from  "../assets/images3.jpeg"; 
+import AboutImg from  "../assets/image2.jpeg"; 
 
 function Services () {
     return (

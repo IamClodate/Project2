@@ -1,5 +1,5 @@
 import "./Hero.css";
-// import herpImg from '../assets/image2.jpeg'; 
+import herpImg from '../assets/image2.jpeg'; 
 
 function Hero(props) {
     return (

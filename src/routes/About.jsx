@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import AboutImg from  "../assets/sea.jpeg";
 
 
-function About () {
+function About() {
     return (
       <div>
         <Navbar />
