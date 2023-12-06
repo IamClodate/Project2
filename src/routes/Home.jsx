@@ -1,3 +1,4 @@
+import Desitination from "../components/Desitination";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 
@@ -14,6 +15,7 @@ function Home () {
           url="/"
           btnClass="show"
         />
+        <Desitination />
     </div>
   );
 }

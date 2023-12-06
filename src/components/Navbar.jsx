@@ -1,8 +1,9 @@
-// import React from "react";
+import React from "react";
 import { Component } from 'react';
 import "./Navbar.css";
 import { Link } from 'react-router-dom';
 import { MenuItems } from './MenuItems';
+import logoImage from "../assets/logo.png";
 
 
 
@@ -15,8 +16,9 @@ class Navbar extends Component {
     render() {
         return(
             <nav className="NavItems">
-            <h1 className="navbar-logo">Tranquil</h1>
-
+            {/* <h1 className="navbar-logo">Tranquil</h1> */}
+            <img src={logoImage} alt="Logo" className="logo"/>
+           
            
             <div className="menu-icons" onClick=
                 {this.handleClick}>
