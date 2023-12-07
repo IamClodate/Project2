@@ -1,0 +1,23 @@
+.Footer {
+    padding: 4rem 8rem;
+    background: orange;
+    color: white;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.top i{
+    color: white;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.top i:hover{
+    color: #363636;
+}

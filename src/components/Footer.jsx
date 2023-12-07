@@ -25,7 +25,36 @@ const Footer = () => {
             </div>
         </div>
 
-        <div className="bottom"></div>
+        <div className="bottom">
+            <div>
+                <h4>Project</h4>
+                <a href="/">ChangeLog</a>
+                <a href="/">Status</a>
+                <a href="/">Licence</a>
+                <a href="/">All Versions</a>
+            </div>
+            <div>
+                <h4>Community</h4>
+                <a href="/">ChangeLog</a>
+                <a href="/">Status</a>
+                <a href="/">Licence</a>
+                <a href="/">All Versions</a>
+            </div>
+            <div>
+                <h4>Company</h4>
+                <a href="/">ChangeLog</a>
+                <a href="/">Status</a>
+                <a href="/">Licence</a>
+                <a href="/">All Versions</a>
+            </div>
+            <div>
+                <h4>Project</h4>
+                <a href="/">ChangeLog</a>
+                <a href="/">Status</a>
+                <a href="/">Licence</a>
+                <a href="/">All Versions</a>
+            </div>
+        </div>
     </div>
   )
 }
