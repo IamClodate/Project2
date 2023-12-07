@@ -15,14 +15,17 @@
     height: 3rem;
     padding: 0 1rem;
     margin-bottom: 2rem;
-    border-radius: .3rem;
+    border-radius: 0.3rem;
     border: 1px solid greenyellow;
 }
 
 .form-container textarea{
-    height: 3rem;
-    padding: 0 1rem;
+    padding: 1rem;
     margin-bottom: 2rem;
-    border-radius: .3rem;
+    border-radius: 0.3rem;
     border: 1px solid greenyellow;
+}
+
+.form-container button{
+    display: inline;
 }
