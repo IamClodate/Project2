@@ -10,11 +10,12 @@ function Contact () {
         <Hero 
         cName="hero-mid"
         heroImg={ AboutImg }   
-        title="This is the About Page"
+        title="Contact "
         buttonText="Explore More"
         
         btnClass="hide"
         />
+        {/* <ContactForm/> */}
       </div>
     )
   }

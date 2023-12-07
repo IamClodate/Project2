@@ -1,6 +1,6 @@
 
 .NavItems {
-    background-color: blue;
+    background-color: purple;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,12 +28,15 @@
     grid-template-columns: repeat(6, auto); 
     grid-gap: 10px;
     list-style: none;
+    background-color: aqua;
     align-items: center;
+    width: 70%;
+    border-radius: 13px;
 }
 
 .nav-links {
     text-decoration: none;
-    color: blue;
+    color: grey;
     font-size: 1.2rem;
     font-weight: 600;
     padding: 0.7rem 1rem;
@@ -64,6 +67,8 @@ button {
     border: none;
     cursor: pointer;
     transition: 0.2s ease-in-out;
+    color: grey;
+    background-color: aqua;
 }
 
 button:hover {
