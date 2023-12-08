@@ -1,4 +1,5 @@
 import Desitination from "../components/Desitination";
+// import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 
@@ -17,6 +18,7 @@ function Home () {
           btnClass="show"
         />
         <Desitination />
+        {/* <Footer /> */}
     </div>
     </div>
   );
