@@ -1,19 +1,19 @@
-import Hero from "../components/Hero";
-import Navbar from "../components/Navbar";
-import AboutImg from  "../assets/image2.jpeg"; 
+// import Hero from "../components/Hero";
+// import Navbar from "../components/Navbar";
+// import AboutImg from  "../assets/image2.jpeg"; 
 
 function Services () {
     return (
       <div>
       {/* <Navbar /> */}
-      <Hero 
+      {/* <Hero 
       cName="hero-mid"
       heroImg={ AboutImg }   
       title="This is the Service Page"
       buttonText="Explore More"
       
       btnClass="hide"
-      />
+      /> */}
       
       </div>
     )
