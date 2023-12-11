@@ -65,10 +65,10 @@
   
   
 
-/* .button {
+button {
     padding: 0.5rem 1rem;
     white-space: nowrap;
-    border-radius: 0.3rem;
+    border-radius: 13px;
     font-size: 1rem;
     font-weight: 600;
     border: none;
@@ -78,10 +78,10 @@
     background-color: aqua;
 }
 
-.button:hover {
+button:hover {
     background-color: gray;
-    color: white;
-} */
+    color: #fff;
+}
 
 .menu-icons {
     display: none;
