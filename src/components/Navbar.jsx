@@ -42,12 +42,12 @@ class Navbar extends Component {
             
                 
             </ul>
-            <div className="Upnav">
-                <button>Sign Up</button>
-                <button>Search</button>
-                <button>Notifications</button>
-                <button>Quick Access</button>
-            </div>
+                <div className="Upnav">
+                    <button>Sign Up</button>
+                    <button>Search</button>
+                    <button>Notifications</button>
+                    <button>Quick Access</button>
+                </div>
             </nav>
         )
     }

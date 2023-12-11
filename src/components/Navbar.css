@@ -45,7 +45,7 @@
 
 .nav-links i {
     padding-right: 10px;
-    color: grey;
+    color: #fff;
 }
 
 .nav-links:hover {
@@ -76,7 +76,7 @@ button {
     cursor: pointer;
     transition: 0.2s ease-in-out;
     color: #fff;
-    background-color: #135072;
+    background-color: #5993b3;
 }
 
 button:hover {
@@ -98,7 +98,7 @@ button:hover {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        background:purple;
+        background:#301934;
         width: 100%;
         height: auto;
         position: absolute;

@@ -57,6 +57,9 @@ const Footer = () => {
                 <a href="/">All Versions</a>
             </div>
         </div>
+        <div className="rights">
+            <p>All rights reserverd</p>
+        </div>
     </div>
   )
 }

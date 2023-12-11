@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 
 function Contact () {
     return (
-      <div className="contact">
+      <div>
         {/* <Navbar /> */}
         {/* <Hero 
         cName="hero-mid"
