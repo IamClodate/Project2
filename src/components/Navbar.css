@@ -58,7 +58,14 @@
     display: none;
 }
 
-button {
+.Upnav {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+
+/* .button {
     padding: 0.5rem 1rem;
     white-space: nowrap;
     border-radius: 0.3rem;
@@ -71,14 +78,15 @@ button {
     background-color: aqua;
 }
 
-button:hover {
+.button:hover {
     background-color: gray;
     color: white;
-}
+} */
 
 .menu-icons {
     display: none;
 }
+
 
 @media screen and (max-width: 850px){
     .NavItems {
@@ -121,7 +129,7 @@ button:hover {
         transition: none;
     }
 
-    button {
+    .button {
         display: none;
     }
     .nav-links-mobile {
