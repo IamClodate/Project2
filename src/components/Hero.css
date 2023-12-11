@@ -1,82 +1,53 @@
-/* .hero {
+.hero {
     width: 100%;
     height: 100%;
     position: absolute;
     border: 1rem solid white;
     border-radius: 13px;
-   
+    /* background-color: rgb(77, 5, 77); */
+  }
 
-  
-} */
-/* #hero-id{
-    background-image: url('../assets/image2.jpeg'); */
-    /* position: absolute; */
-    /* background-color: rgb(9, 63, 63); */
-    /* background-size:cover;
-    background-repeat: no-repeat;
-    height: 80vh;
-    z-index: 1;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.hero-mid {
+  .hero-mid {
     width: 100%;
-    height: 70vh; */
-    /* position: relative; */
-/* } */
+    height: 70vh;
+    position: relative;
+  }
 
-
-
-
-
-/* img {
-
+  .hero-text h1 {
+    /* padding-top: 4rem !important; */
+    color:brown;
+    background-color: aqua;
+  }
+  
+img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: -1;
-} */
-
-/* .hero-text { */
-    /* position: absolute; */
-    /* top: 55%;
+}
+.hero-text{
+    position: absolute;
+    top: 55%;
     left: 50%;
-    transform: translate(-50%, -50%); */
-    /* width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
-    /* background-color: chocolate; */
-  
-
-/* }
-.hero-text h1 { */
-    /* position: relative; */
-    /* font-size: 2rem; */
-    /* font-weight: 800; */
-    /* background: lightblue;
-    color: white;
-    width: 40%; */
+    transform: translate(-50%, -50%);
+    width: 100%;
+    background-color: chocolate;
+}
+.hero-text h1{
+    font-size: 3rem;
+    font-weight: 800;
+    background: green;
+    color: grey;
     /* -webkit-background-clip: text; */
     /* -webkit-text-fill-color: transparent; */
-/* }
-
-.hero-text p {
-    font-size: 1.3rem;
-    color: #fff;
-    margin-top: 10px;
-    background: lightblue;
-
 }
 
-
-.hero-text .show {
+.hero-text p{
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #fff;
+    padding: 0.5rem 0 2rem 0;  
+}
+.hero-text .show{
     text-decoration: none;
     background: blue;
     padding: 1rem 2rem;
@@ -90,23 +61,22 @@
 .hero-text .hide {
     display: none;
 }
-
-@media screen and (max-width: 55px) {
+@media screen and (max-width: 55px){
     .hero-text h1 {
         padding: 10px 20px;
     }
 
-    .hero-text p1 {
+    .hero-text p1{
         font-size: 1.1rem;
         padding: 0 0 2rem 0;
         /* color: chartreuse; */
-    /* }
+    }
 
     .hero-text .show {
-        padding: 6rem 1.1rem;
+        padding:6rem 1.1rem;
         border-radius: 6px;
         font-size: 1rem;
         background: red;
 
     }
-}  */
+}

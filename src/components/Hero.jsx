@@ -1,15 +1,14 @@
-// import "./Hero.css";
+import "./Hero.css";
 // import herpImg from '../assets/image2.jpeg'; 
 
-// function Hero(props) {
-//     return (
-//       <>
-//       <div id="hero-id">
-      {/* <div className={props.cName} id="hero-id"> */}
-        {/* <img alt="HeroImg" src={props.heroImg}/> */}
+function Hero(props) {
+    return (
+      <>
+      <div className={props.cName}>
+        <img alt="HerpImg" src={props.heroImg}/>
 
         
-         {/* <div className="hero-text" >
+         <div className="hero-text" >
          <h1>{props.title}</h1>
         <p>{props.text}</p>
           <a href={props.url} className={props.btnClass}>
@@ -22,6 +21,6 @@
     );
   }
   
-  export default Hero; */}
+  export default Hero;
 
   

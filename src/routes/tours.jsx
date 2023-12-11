@@ -6,7 +6,7 @@ import AboutImg from  "../assets/images5.jpeg";
 function Tours () {
     return (
       <div>
-        <Navbar />
+        {/* <Navbar /> */}
         <Hero 
         cName="hero-mid"
         heroImg={ AboutImg }   

@@ -5,7 +5,7 @@ import AboutImg from  "../assets/image2.jpeg";
 function Services () {
     return (
       <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero 
       cName="hero-mid"
       heroImg={ AboutImg }   

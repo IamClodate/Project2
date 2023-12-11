@@ -1,19 +1,18 @@
 
 *{
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-
-  /* padding: 1px; */
+  background: darkblue;
+  /* border: 1rem solid grey; */
+  padding: 1px;
   color: white;
   
 
 }
-body{
-  background-color: peachpuff;
-}
+
 .App {
   font-family: sans-serif;
-  /* text-align: center; */
+  text-align: center;
 }

@@ -6,7 +6,7 @@ import AboutImg from  "../assets/sea.jpeg";
 function About() {
     return (
       <div>
-        <Navbar />
+        {/* <Navbar /> */}
         <Hero 
           cName="hero-mid"
           heroImg={ AboutImg }   
