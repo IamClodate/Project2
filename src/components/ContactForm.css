@@ -1,6 +1,9 @@
 .form-container{
     margin: 0;
     color: green;
+    /* border: #fff solid 1rem; */
+    border-radius: 13px;
+    background: #135072;
 }
 
 .form-container form{
