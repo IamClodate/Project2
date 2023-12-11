@@ -28,7 +28,7 @@
     grid-template-columns: repeat(6, auto); 
     grid-gap: 10px;
     list-style: none;
-    background-color: aqua;
+    background-color: #301934;
     align-items: center;
     width: 70%;
     border-radius: 13px;
