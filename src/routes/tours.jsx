@@ -1,6 +1,6 @@
 // import Hero from "../components/Hero";
-import Navbar from "../components/Navbar";
-import AboutImg from  "../assets/images5.jpeg";
+// import Navbar from "../components/Navbar";
+// import AboutImg from  "../assets/images5.jpeg";
 
 
 function Tours () {
