@@ -48,6 +48,12 @@
     font-size: 1.1rem;
     /* border: orangered; */
 }
+.rights {
+    
+    align-items: center;
+    background-color: #324b58;
+    border-radius: 13px;
+}
 @media screen and (max-width: 850px){
     .footer{
         padding: 4rem 2rem;
