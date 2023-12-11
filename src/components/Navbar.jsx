@@ -44,6 +44,9 @@ class Navbar extends Component {
             </ul>
 
             <button>Sign Up</button>
+            <button>Search</button>
+            <button>Notifications</button>
+            <button>Quick Access</button>
             </nav>
         )
     }
