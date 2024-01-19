@@ -16,15 +16,17 @@ function Home () {
           url="/"
           btnClass="show"
         /> */}
-        <Desitination />
+       
 
 
         {/* form enter home page */}
 
         <div className="form-container">
             {/* <h1>Contact Us</h1> */}
+
+            <Desitination />
                 <form>
-                    <textarea placeholder="Message" rows="4"></textarea>
+                    <textarea placeholder="Thank you for visiting us"></textarea>
                     <button>Explore More</button>
 
                 </form>
