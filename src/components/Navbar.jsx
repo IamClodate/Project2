@@ -16,7 +16,7 @@ class Navbar extends Component {
     render() {
         return(
             <nav className="NavItems">
-            {/* <h1 className="navbar-logo">Tranquil</h1> */}
+           
             <img src={logoImage} alt="Logo" className="logo"/>
            
            
@@ -38,10 +38,13 @@ class Navbar extends Component {
                 </li>
                 );
             })}
-
-            
                 
             </ul>
+                 <div className="Profile">
+                    <img src={logoImage} alt="Logo" className="logo"/>
+                 </div>
+            
+
                 <div className="Upnav">
                     <button>Sign Up</button>
                     <button>Search</button>

@@ -17,6 +17,18 @@ function Home () {
           btnClass="show"
         /> */}
         <Desitination />
+
+
+        {/* form enter home page */}
+
+        <div className="form-container">
+            <h1>Contact Us</h1>
+                <form>
+                    <textarea placeholder="Message" rows="4"></textarea>
+                    <button>Explore More</button>
+
+                </form>
+        </div>
     </div>
     </div>
   );
