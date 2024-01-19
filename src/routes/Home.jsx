@@ -27,6 +27,7 @@ function Home () {
             <Desitination />
                 <form>
                     <textarea placeholder="Thank you for visiting us"></textarea>
+                    <button>Login</button><br></br>
                     <button>Explore More</button>
 
                 </form>
