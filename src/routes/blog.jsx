@@ -1,7 +1,7 @@
 // import Hero from "../components/Hero";
 // import Navbar from "../components/Navbar";
 // import AboutImg from  "../assets/images3.jpeg";
-import React from "react";
+// import React from "react";
 import Portfolio from "../components/Portfolio";
 import Desitination from "../components/Desitination";
 
