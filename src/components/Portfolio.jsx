@@ -22,59 +22,62 @@ const Portfolio = () => {
                 <div className="grid">
                     <div className="singlePortfolio flex">
                         <div className="iconDiv">
-                            <img src={icon} alt="Icon image" />
+                            <img src={icon1} alt="Icon image" />
                         </div>
 
                     <div className="infor">
-                        <h4>Diverse Range of Destination</h4>
-                        <p>
-                            Our top priority is the safety and well-being of our clients.
-                            We maintain high safety standars and have emergency support 
-                            available during the trip.
-                        </p>
-
-                        <div className="singlePortfolio flex">
-                        <div className="iconDiv">
-                            <img src={icon} alt="Icon image" />
-                        </div>
-
-                    <div className="infor">
-                        <h4>Diverse Range of Destination</h4>
-                        <p>
-                            Our top priority is the safety and well-being of our clients.
-                            We maintain high safety standars and have emergency support 
-                            available during the trip.
-                        </p>
-                        </div>
-                        </div>
-
-                        <div className="singlePortfolio flex">
-                        <div className="iconDiv">
-                            <img src={icon} alt="Icon image" />
-                        </div>
-
-                    <div className="infor">
-                        <h4>Diverse Range of Destination</h4>
-                        <p>
-                            Our top priority is the safety and well-being of our clients.
-                            We maintain high safety standars and have emergency support 
-                            available during the trip.
-                        </p>
-                        </div>
-                        </div>
                         <h4>Safety and Support</h4>
                         <p>
                             Our top priority is the safety and well-being of our clients.
                             We maintain high safety standars and have emergency support 
                             available during the trip.
                         </p>
-                        <h4>24/7 Customer Support</h4>
-                        <p>
-                            Our dedicated customer support team is available around the clock
-                            to address any queries or concerns before, during, and after the trip.
-                        </p>
+                        </div>
                     </div>
-                    </div>
+
+                        <div className="singlePortfolio flex">
+                            <div className="iconDiv">
+                                <img src={icon2} alt="Icon image" />
+                            </div>
+
+                            <div className="infor">
+                                <h4>Diverse Range of Destination</h4>
+                                <p>
+                                    Our top priority is the safety and well-being of our clients.
+                                    We maintain high safety standars and have emergency support 
+                                    available during the trip.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="singlePortfolio flex">
+                            <div className="iconDiv">
+                                <img src={icon} alt="Icon image" />
+                            </div>
+
+                            <div className="infor">
+                                <h4>Diverse Range of Destination</h4>
+                                <p>
+                                    Our top priority is the safety and well-being of our clients.
+                                    We maintain high safety standars and have emergency support 
+                                    available during the trip.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="singlePortfolio flex">
+                            <div className="iconDiv">
+                                <img src={icon3} alt="Icon image" />
+                            </div>
+
+                            <div className="infor">
+                                <h4>Diverse Range of Destination</h4>
+                                <p>
+                                    Our top priority is the safety and well-being of our clients.
+                                    We maintain high safety standars and have emergency support 
+                                    available during the trip.
+                                </p>
+                            </div>
+                        </div>
 
                 </div>
             </div>
