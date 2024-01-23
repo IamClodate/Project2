@@ -43,26 +43,21 @@ const Footer = () => {
                 <a href="/">All Versions</a>
             </div>
             <div>
-                <h4>Company</h4>
-                <a href="/">ChangeLog</a>
+            <h4>Helpful Links</h4>
+                <a href="/">Company</a>
                 <a href="/">Status</a>
                 <a href="/">Licence</a>
                 <a href="/">All Versions</a>
             </div>
             <div>
-                <h4>Helpful Links</h4>
-                <a href="/">ChangeLog</a>
-                <a href="/">Status</a>
-                <a href="/">Licence</a>
-                <a href="/">All Versions</a>
-
-
-                <form>
-                    <input placeholder="Name"/>
-                    <textarea placeholder="Subscribion Message" rows="4"></textarea>
+            <form>
+                    <input placeholder="Name"/><br></br>
+                    <textarea placeholder="Subscribion Message" rows="4"></textarea><br></br>
                     <button>Subscribe</button>
 
-                </form>
+                </form> 
+
+                
             
             </div>
         </div>
