@@ -1,9 +1,9 @@
 // import React from 'react';
 import "./Destination.css";
 import picture from "../assets/images5.jpeg"
-import picture1 from "../assets/images4.jpeg"
-import picture2 from "../assets/images3.jpeg"
-import picture3 from "../assets/images.jpeg"
+// import picture1 from "../assets/images4.jpeg"
+// import picture2 from "../assets/images3.jpeg"
+// import picture3 from "../assets/images.jpeg"
 
 const Desitination = () => {
   return (
