@@ -29,9 +29,9 @@ const Footer = () => {
 
         <div className="bottom">
             <div>
-                <h4>Project</h4>
-                <a href="/">ChangeLog</a>
-                <a href="/">Status</a>
+                <h4>Information</h4>
+                <a href="/">About Us</a>
+                <a href="/">Project</a>
                 <a href="/">Licence</a>
                 <a href="/">All Versions</a>
             </div>
@@ -50,7 +50,7 @@ const Footer = () => {
                 <a href="/">All Versions</a>
             </div>
             <div>
-                <h4>About Us</h4>
+                <h4>Helpful Links</h4>
                 <a href="/">ChangeLog</a>
                 <a href="/">Status</a>
                 <a href="/">Licence</a>
