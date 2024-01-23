@@ -55,6 +55,15 @@ const Footer = () => {
                 <a href="/">Status</a>
                 <a href="/">Licence</a>
                 <a href="/">All Versions</a>
+
+
+                <form>
+                    <input placeholder="Name"/>
+                    <textarea placeholder="Subscribion Message" rows="4"></textarea>
+                    <button>Subscribe</button>
+
+                </form>
+            
             </div>
         </div>
         <div className="rights">
