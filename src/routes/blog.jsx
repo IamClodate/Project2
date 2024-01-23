@@ -2,8 +2,8 @@
 // import Navbar from "../components/Navbar";
 // import AboutImg from  "../assets/images3.jpeg";
 import React from "react";
-i
-
+import Portfolio from "../components/Portfolio";
+import Desitination from "../components/Desitination";
 
 function Blog () {
     return (
@@ -17,7 +17,11 @@ function Blog () {
         
         btnClass="hide"
         /> */}
+        <Portfolio />
+        <Desitination />
       </div>
+
+      
     )
   }
   
