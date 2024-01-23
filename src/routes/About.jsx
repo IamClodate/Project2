@@ -24,7 +24,7 @@ function About() {
                     <textarea placeholder="Thank you for visiting us"></textarea>
                     <textarea placeholder="This is the about us page"></textarea>
                     <textarea placeholder="About"></textarea>
-                    <button>Login</button><br></br>
+                    
                     <button>Explore More</button>
 
                 </form>
