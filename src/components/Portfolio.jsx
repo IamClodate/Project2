@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "./Portfolio.css";
 
 
@@ -7,7 +7,7 @@ import "./Portfolio.css";
 // import icon2 from "../assets/images.jpeg"
 // import icon3 from "../assets/images4jpeg"
 
-import icon1 from "../assets/picc.jpeg";
+import icon1 from "../assets/picc.jpg";
 import icon2 from "../assets/images.jpeg";
 
 
@@ -54,7 +54,7 @@ const Portfolio = () => {
 
                         <div className="singlePortfolio flex">
                             <div className="iconDiv">
-                                <img src={icon} alt="Icon image" />
+                                <img src={icon1} alt="Icon image" />
                             </div>
 
                             <div className="infor">
@@ -68,7 +68,7 @@ const Portfolio = () => {
                         </div>
                         <div className="singlePortfolio flex">
                             <div className="iconDiv">
-                                <img src={icon3} alt="Icon image" />
+                                <img src={icon2} alt="Icon image" />
                             </div>
 
                             <div className="infor">
