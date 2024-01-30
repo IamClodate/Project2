@@ -2,10 +2,10 @@ import React from "react";
 import "./Portfolio.css";
 
 
-import icon from "../assets/sea.jpeg";
-import icon1 from "../assets/picc.jpeg";
-import icon2 from "../assets/images.jpeg";
-import icon3 from "../assets/images4jpeg";
+import icon from "../assets/sea.jpeg"
+import icon1 from "../assets/picc.jpeg"
+import icon2 from "../assets/images.jpeg"
+import icon3 from "../assets/images4jpeg"
 
 
 
