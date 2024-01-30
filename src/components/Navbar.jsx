@@ -46,10 +46,10 @@ class Navbar extends Component {
             
 
                 <div className="Upnav">
-                    <button>Sign Up</button><br></br>
-                    <button>Search</button><br></br>
-                    <button>Notifications</button><br></br>
-                    <button>Quick Access</button><br></br>
+                    <button>Sign Up</button>
+                    <button>Search</button>
+                    <button>Notifications</button>
+                    <button>Quick Access</button>
                 </div>
             </nav>
         )
